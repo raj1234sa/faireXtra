@@ -1,0 +1,265 @@
+header {
+    background-image: url('../images/1.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.overlap-image {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar a.nav-link {
+    color: seashell;
+    display: inline-block;
+}
+
+.navbar-toggler span {
+    color: white;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+ul.navbar-links {
+    max-width: -webkit-fill-available;
+    overflow: auto;
+}
+
+.page-heading-only {
+    height: calc(100% - 75px);
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.faq-section, .contact-section, .privacy-section {
+    margin: 90px auto;
+}
+
+.custom-card {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.custom-card > .custom-header > .heading {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.custom-card > .custom-header > .description {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.custom-card .accordian {
+    border-top: 1px solid #ccc;
+    padding: 15px 40px;
+}
+
+.accordian > .title {
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.middle-footer  .main-content {
+    background: #eee;
+    box-shadow: 3px 5px 30px -8px #aaa;
+    padding: 40px 120px;
+}
+
+.middle-footer  .main-content .heading {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+footer > .footer {
+    background: darkblue;
+    margin-top: -110px;
+    padding: 190px 20px 5px 20px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+footer > .middle {
+    z-index: 2;
+    position: relative;
+}
+
+img.url {
+    cursor: pointer;
+}
+
+.footer .contact-detail {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.footer .links {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.footer .links a {
+    color: white;
+}
+
+.links ul > .head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.links ul > li:not(.head) {
+    display: block;
+    padding: 6px 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .links .left-link {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        padding-bottom: 20px;
+    }
+    .links .right-link {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .bottom {
+        text-align: center;
+    }
+    .links ul > .head {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .middle-footer .main-content {
+        padding: 40px 15px;
+    }
+    .seperate-left {
+        border-bottom: 2.5px solid #eee;
+        padding-bottom: 30px;
+    }
+    .seperate-right {
+        padding-top: 30px;
+    }
+    .contact-card {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .links .left-link {
+        border-right: 1px solid rgba(255, 255, 255, 0.6);
+        padding-right: 140px;
+    }
+    .nav-link {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .seperate-left {
+        border-right: 2.5px solid #eee;
+    }
+    .contact-card {
+        padding: 50px 100px;
+    }
+    .seperate-left {
+        padding-right: 50px;
+    }
+    .seperate-right {
+        padding-left: 50px;
+    }
+}
+
+.links .right-link .heading {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right-link .email {
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.social-links li a {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    width: 31px;
+    height: 30px;
+}
+
+.social-links li {
+    margin-right: 16px;
+}
+
+footer .bottom {
+    padding-top: 5px;
+}
+
+
+
+.contact-section {
+    margin-top: -200px;
+}
+
+.contact-header {
+    padding-bottom: 200px;
+}
+
+.form-header {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form .contact-form-desc {
+    margin-top: 10px;
+}
+
+form .form-inputs {
+    margin-top: 40px;
+}
+
+form .form-submit {
+    border-radius: 5px;
+    color: white;
+    background-color: #4a25ba;
+    border: none;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 7px 3px #ccc;
+}
+
+.contact-content .head {
+    color: #888;
+}
+
+
+.privacy-card {
+    padding: 50px 50px;
+}
+
+.privacy-card .privacy-head {
+    font-weight: bold;
+}
+
+.privacy-card .privacy-head, .privacy-card .privacy-content {
+    text-align: center;
+}
+
+.privacy-card .privacy-content:not(:last-child) {
+    margin-bottom: 30px;
+}
