@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     background-image: url('../images/1.jpg');
     height: 600px;
@@ -34,7 +38,7 @@ ul.navbar-links {
 }
 
 .page-heading-only {
-    height: calc(100% - 75px);
+    height: calc(100% - 103px);
     font-size: 50px;
     font-weight: bold;
     color: white;
@@ -83,7 +87,6 @@ ul.navbar-links {
 
 .middle-footer  .main-content .heading {
     font-weight: bold;
-    font-size: 35px;
 }
 
 footer > .footer {
@@ -159,6 +162,41 @@ img.url {
     .contact-card {
         padding: 50px 50px;
     }
+    .right-link .email {
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .middle-footer  .main-content .heading {
+        font-size: 5vw;
+    }
+    .size-responsive {
+        text-align: center;
+    }
+    .section-heading {
+        font-size: 8vw;
+    }
+    .section-sub-heading {
+        font-size: 5vw;
+    }
+    .input-responsive {
+        width: 100%;
+    }
+    .trial-content form input[type=submit] {
+        padding: 1vw 4vw;
+    }
+    .evaluation-section {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+    .evaluation-section .heading {
+        font-weight: bold;
+        font-size: 6vw;
+        color: rgba(2, 48, 7, 0.8);
+    }
+    .hover-box-item {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -182,6 +220,30 @@ img.url {
     .seperate-right {
         padding-left: 50px;
     }
+    .right-link .email {
+        font-size: 2vw;
+    }
+    .middle-footer  .main-content .heading {
+        font-size: 3vw;
+    }
+    .section-heading {
+        font-size: 3vw;
+    }
+    .section-sub-heading {
+        font-size: 1.8vw;
+    }
+    .input-responsive {
+        width: 60%;
+    }
+    .evaluation-section {
+        padding-top: 80px;
+        padding-bottom: 140px;
+    }
+    .evaluation-section .heading {
+        font-weight: bold;
+        font-size: 2vw;
+        color: rgba(2, 48, 7, 0.8);
+    }
 }
 
 .links .right-link .heading {
@@ -191,7 +253,6 @@ img.url {
 
 .right-link .email {
     font-weight: bold;
-    font-size: 29px;
 }
 
 .social-links li a {
@@ -234,13 +295,24 @@ form .form-inputs {
     margin-top: 40px;
 }
 
-form .form-submit {
+.contact-section .form-submit {
     border-radius: 5px;
     color: white;
     background-color: #4a25ba;
     border: none;
     padding: 10px 40px;
     box-shadow: 1px 1px 7px 3px #ccc;
+}
+
+.trial-content .form-submit {
+    border-radius: 5px;
+    color: white;
+    background-color: #4a25ba;
+    border: none;
+    padding: 6px 22px;
+    box-shadow: 1px 1px 7px 3px #ccc;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .contact-content .head {
@@ -262,4 +334,194 @@ form .form-submit {
 
 .privacy-card .privacy-content:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.section-image {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.overlap-image1 {
+    background-image: url('../images/middle-background.jpg');
+}
+
+.overlap-image2 {
+    background-image: url('../images/lightening.jpg');
+}
+
+.overlap-image3 {
+    background-image: url('../images/2a.jpg');
+}
+
+.overlap-image4 {
+    background-image: url('../images/about-form-bg.jpg');
+}
+
+.about-section {
+    padding: 9vw;
+}
+
+.about-section img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.who-we-section {
+    padding: 3vw;
+}
+
+.about-form-section {
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+}
+
+.team-location-section {
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+}
+
+.section-heading {
+    font-weight: bold;
+    color: white;
+}
+
+.section-sub-heading {
+    font-weight: bold;
+    color: white;
+}
+
+.section-sub-desc {
+    color: white;
+}
+
+.img-opacity-1 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.img-opacity-2 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.img-opacity-3 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img-opacity-4 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-opacity-5 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-opacity-6 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img-opacity-7 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.img-opacity-8 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-opacity-9 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.section-hr {
+    background: cyan;
+    width: 70%;
+    margin-top: 0;
+    height: 2px;
+}
+
+.team-locatoin-desc {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.form-div {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.trial-content img {
+    width: 200px;
+    border-radius: 4px;
+}
+
+.trial-content {
+    margin: 10px 20px;
+    background: rgba(204, 204, 204,0.2);
+}
+
+.case-study {
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.case-study .title {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgba(3, 41, 13, 0.8);
+}
+
+.case-study .description {
+    color: rgba(3, 41, 13, 0.8);
+}
+
+.hover-items .overlap-image5 {
+    background-image: url('../images/van-in-forest.jpg');
+}
+
+.hover-items .case1 {
+    background-color: rgba(58, 186, 214, 0.6);
+}
+
+.hover-items .case2 {
+    background-color: rgba(214, 58, 141, 0.6);
+}
+
+.hover-items .case3 {
+    background-color: rgba(60, 214, 78, 0.6);
+}
+
+.hover-items .title {
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.hover-items .description {
+    color: white;
+    text-align: center;
+}
+
+.case1, .case2, .case3 {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.hover-list .hover-items:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.hover-box-item .title {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.hover-box-list .hover-box-item:hover {
+    transition: .5s;
+    box-shadow: 12px 7px 30px 6px #ccc;
 }
