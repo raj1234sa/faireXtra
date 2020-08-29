@@ -1,0 +1,152 @@
+@media screen and (max-width: 768px) {
+        .links .left-link {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            padding-bottom: 20px;
+        }
+        .links .right-link {
+            padding-top: 20px;
+            text-align: center;
+        }
+        .bottom {
+            text-align: center;
+        }
+        .links ul > .head {
+            margin-top: 10px;
+            margin-bottom: 12px;
+        }
+        .middle-footer .main-content {
+            padding: 40px 15px;
+        }
+        .seperate-left {
+            border-bottom: 2.5px solid #eee;
+            padding-bottom: 30px;
+        }
+        .seperate-right {
+            padding-top: 30px;
+        }
+        .contact-card {
+            padding: 50px 50px;
+        }
+        .right-link .email {
+            font-weight: bold;
+            font-size: 5vw;
+        }
+        .middle-footer  .main-content .heading {
+            font-size: 5vw;
+        }
+        .size-responsive {
+            text-align: center;
+        }
+        .section-heading {
+            font-size: 8vw;
+        }
+        .section-sub-heading {
+            font-size: 5vw;
+        }
+        .input-responsive {
+            width: 100%;
+        }
+        .trial-content form input[type=submit] {
+            padding: 1vw 4vw;
+        }
+        .evaluation-section {
+            padding-top: 5px;
+            padding-bottom: 40px;
+        }
+        .evaluation-section .heading {
+            font-weight: bold;
+            font-size: 6vw;
+            color: rgba(2, 48, 7, 0.8);
+        }
+        .hover-box-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .for-drivers-heading {
+                font-size: 8vw;
+        }
+        .border-slide-button {
+                padding: 5px 20px;
+                font-size: 4vw;
+        }
+        .brand-div {
+            box-shadow: 0px 0px 36px 3px #ccc;
+            padding: 10px 10px !important;
+        }
+        .brand-list {
+            padding: 20px 20px;
+        }
+        .steps-section {
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+        .become-driver {
+                margin-top: 80px;
+                margin-bottom: 50px;
+        }
+}
+    
+@media screen and (min-width: 768px) {
+        .links .left-link {
+                border-right: 1px solid rgba(255, 255, 255, 0.6);
+                padding-right: 140px;
+        }
+        .nav-link {
+                padding-right: 15px !important;
+                padding-left: 15px !important;
+        }
+        .seperate-left {
+                border-right: 2.5px solid #eee;
+        }
+        .contact-card {
+                padding: 50px 100px;
+        }
+        .seperate-left {
+                padding-right: 50px;
+        }
+        .seperate-right {
+                padding-left: 50px;
+        }
+        .right-link .email {
+                font-size: 2vw;
+        }
+        .middle-footer  .main-content .heading {
+                font-size: 3vw;
+        }
+        .section-heading {
+                font-size: 3vw;
+        }
+        .section-sub-heading {
+                font-size: 1.8vw;
+        }
+        .input-responsive {
+                width: 60%;
+        }
+        .evaluation-section {
+                padding-top: 80px;
+                padding-bottom: 140px;
+        }
+        .evaluation-section .heading {
+                font-weight: bold;
+                font-size: 2vw;
+                color: rgba(2, 48, 7, 0.8);
+        }
+        .for-drivers-heading {
+                font-size: 3vw;
+        }
+        .brand-div {
+            box-shadow: 0px 0px 36px 3px #ccc;
+            padding: 30px 80px !important;
+        }
+        .brand-list {
+            padding: 20px 70px;
+        }
+        .steps-section {
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+        .become-driver {
+                margin-top: 80px;
+                margin-bottom: 100px;
+        }
+}
