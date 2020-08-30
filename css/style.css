@@ -73,6 +73,11 @@ ul.navbar-links {
     padding: 15px 40px;
 }
 
+.custom-card .description {
+    color: rgba(0, 0, 0, 0.6);
+    width: 100% !important;
+}
+
 .accordian > .title {
     font-weight: bold;
     font-size: 17px;
@@ -319,7 +324,6 @@ form .form-inputs {
 .section-hr {
     background: cyan;
     width: 70%;
-    margin-top: 0;
     height: 2px;
 }
 
@@ -546,4 +550,134 @@ form .form-inputs {
 .icon-button:hover {
     transition: .7s;
     box-shadow: 1px 1px 14px -3px #185bc7;
+}
+
+
+.page-heading-only .descriptiion {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.believe-section .heading {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.believe-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.believe-section .description {
+    width: 60%;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.offer-section {
+    background-image: url('../images/offer.jpg');
+}
+
+.offer-section .title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.overlap-image6 {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background: rgba(19, 9, 91, 0.85);
+}
+.offer-card {
+    border: 1px solid cyan;
+    border-radius: 11px;
+    padding: 20px 15px !important;
+    min-height: 250px;
+}
+
+.offer-card .card-heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.offer-card .body {
+    text-align: center;
+}
+
+.retargeting-section {
+    background-image: url('../images/1a.jpg');
+}
+
+.overlap-image7 {
+    height: 750px;
+    background: rgba(0,0 , 0, 0.3);
+}
+
+.overlap-image8 {
+    height: 700px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.retargeting-section .heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.retargeting-section .description {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dashboard-section {
+    background-image: url('../images/dashboard.jpg');
+}
+
+.dashboard-section .heading {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.dashboard-section .section-hr {
+    background-color: white;
+}
+
+.dashboard-section .descrition {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.list-seperated {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.list-seperated .list-item {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+}
+
+.list-seperated .list-item:not(:last-child):after {
+    position: absolute;
+    content: '';
+    right: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 10px;
+    margin-right: -8px;
+    background: white;
+    bottom: 23px;
 }
