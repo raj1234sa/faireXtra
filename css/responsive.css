@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    header {
+        height: 250px;
+    }
     .links .left-link {
         border-bottom: 1px solid rgba(255, 255, 255, 0.6);
         padding-bottom: 20px;
@@ -86,11 +89,11 @@
 
     .border-slide-button {
         padding: 5px 20px;
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .brand-div {
-        box-shadow: 0px 0px 36px 3px #ccc;
+        box-shadow: 0px 43px 30px 3px #ccc;
         padding: 10px 10px !important;
     }
 
@@ -106,6 +109,73 @@
     .become-driver {
         margin-top: 80px;
         margin-bottom: 50px;
+    }
+    .page-heading {
+        font-size: 9vw !important;
+        text-align: center;
+    }
+    .contact-header {
+        font-size: 10vw !important;
+    }
+    .faq-title {
+        font-size: 10vw;
+    }
+    .privacy-card {
+        padding: 15px 25px;
+    }
+    .contact-card {
+        padding: 5px 5px;
+    }
+    .list-seperated .list-item {
+        font-size: 6vw;
+    }
+    .page-heading-only .description {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .custom-card .heading {
+        font-size: 15vw !important;
+    }
+    .retargeting-section .heading {
+        font-size: 10vw !important;
+    }
+    .dashboard-section .heading {
+        font-size: 10vw !important;   
+    }
+    .faq-list {
+        padding: 0px 20px !important;
+    }
+    .button-row-div {
+        justify-content: space-around;
+    }
+    .form-header {
+        text-align: center;
+    }
+    .contact-section {
+        margin-top: -60px;
+    }
+    header.indexpage {
+        height: 400px;
+    }
+    header.indexpage .page-heading {
+        font-size: 6vw !important;
+        text-align: left;
+        font-style: italic;
+    }
+    .fairextra-intro {
+        padding: 30px 20px;
+    }
+    .fairextra-intro .intro-div {
+        min-height: 350px !important;
+    }
+    .fairextra-intro .intro-div .heading {
+        font-size: 8vw;
+    }
+    .fairextra-intro .intro-div .subtitle {
+        font-size: 6vw;
+    }
+    .fairextra-intro .intro-div .description {
+        font-size: 4vw;
     }
 }
 
@@ -129,11 +199,11 @@
     }
 
     .seperate-left {
-        padding-right: 50px;
+        padding-right: 50px !important;
     }
 
     .seperate-right {
-        padding-left: 50px;
+        padding-left: 50px !important;
     }
 
     .right-link .email {
@@ -172,7 +242,7 @@
     }
 
     .brand-div {
-        box-shadow: 0px 0px 36px 3px #ccc;
+        box-shadow: 0px 43px 30px 3px #ccc;
         padding: 30px 80px !important;
     }
 
@@ -188,5 +258,20 @@
     .become-driver {
         margin-top: 80px;
         margin-bottom: 100px;
+    }
+    .button-row-div {
+        justify-content: center;
+    }
+    .page-heading-only .description {
+        font-size: 2vw;
+    }
+    .faq-link {
+        margin: 0px 120px;
+    }
+    .fairextra-intro {
+        height: 600px;
+    }
+    .fairextra-intro .intro-div .heading {
+        font-size: 35px;
     }
 }

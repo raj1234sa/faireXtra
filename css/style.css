@@ -2,11 +2,25 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 header {
     background-image: url('../images/1.jpg');
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+header.indexpage {
+    color: white;
+}
+
+header.indexpage small {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
 }
 
 .overlap-image {
@@ -39,10 +53,13 @@ ul.navbar-links {
 
 .page-heading-only {
     height: calc(100% - 115px);
-    font-size: 50px;
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
+}
+
+.page-heading-only .page-heading {
+    font-size: 50px;
 }
 
 .faq-section, .contact-section, .privacy-section {
@@ -556,6 +573,7 @@ form .form-inputs {
 .page-heading-only .descriptiion {
     font-size: 28px;
     font-weight: normal;
+    text-align: center;
 }
 
 .believe-section .heading {
@@ -643,6 +661,7 @@ form .form-inputs {
     color: white;
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
 }
 
 .dashboard-section .section-hr {
@@ -680,4 +699,184 @@ form .form-inputs {
     margin-right: -8px;
     background: white;
     bottom: 23px;
+}
+
+.adtypes {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.adtypes .heading {
+    color: rgba(19, 9, 91, 0.85);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.adtypes .section-hr {
+    background-color: rgba(19, 9, 91, 0.85);
+}
+
+.adtypes button {
+    border: none;
+    background: white;
+    border: 1.5px solid rgba(19, 9, 91, 0.85);
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px 15px;
+    color: rgba(19, 9, 91, 0.85);
+    transition: .7s;
+}
+
+.adtypes button:hover {
+    background: rgba(19, 9, 91, 0.85);
+    color: white;
+}
+
+.faqs {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.faqs .heading {
+    color: rgba(19, 9, 91, 0.85);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.faqs .section-hr {
+    background-color: rgba(19, 9, 91, 0.85);
+    width: 100%;
+}
+
+.faqs .faq-list {
+    padding: 0px 120px;
+}
+
+.faqs .accordian {
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 10px 10px 10px 0px;
+}
+
+.faqs .accordian:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.faqs .accordian .title {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.faqs .accordian .title i {
+    font-size: 20px;
+}
+
+.faqs .accordian .inner {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.faq-link {
+    color: rgba(19, 9, 91, 0.85);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.faq-link a {
+    color: rgba(19, 9, 91, 0.85);
+    text-decoration: underline;
+}
+
+.indexbody .brand-div {
+    margin-top: -60px;
+    background: white;
+}
+
+.fairextra-intro {
+    padding: 40px 80px;
+}
+
+.fairextra-intro .intro-div {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.fairextra-intro .intro-div .heading {
+    color: rgba(19, 9, 91, 0.85);
+    font-weight: bold;
+}
+
+.fairextra-intro .intro-div .subtitle {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.fairextra-intro .intro-div .description {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.grid-image-block .bg-image {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.grid-image-block .heading {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.grid-image-block .description {
+    text-align: center;
+    width: 60%;
+}
+
+.grid-image-block .learn-button {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    padding: 12px 35px;
+    transition: .7s;
+}
+
+.grid-image-block .learn-button:hover {
+    background: white;
+    color: rgba(19, 9, 91, 0.85);
+    font-weight: bold;
+}
+
+.grid-image-block .image1 {
+    background-image: url('../images/mobile-laptop.jpg');
+}
+
+.overlap-image9 {
+    height: 100%;
+    background: rgba(2, 5, 196, 0.7);
+}
+
+.grid-image-block .image2 {
+    background-image: url('../images/car.jpg');
+}
+
+.overlap-image10 {
+    height: 100%;
+    background: rgba(150, 163, 2, 0.6);
+}
+
+.grid-image-block .image3 {
+    background-image: url('../images/car-person.jpg');
+}
+
+.overlap-image11 {
+    height: 100%;
+    background: rgba(7, 138, 27, 0.5);
+}
+
+.grid-image-block .image4 {
+    background-image: url('../images/dashboard-grid.jpeg');
+}
+
+.overlap-image12 {
+    height: 100%;
+    background: rgba(240, 28, 5, 0.6);
 }
