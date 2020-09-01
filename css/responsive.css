@@ -160,7 +160,6 @@
     header.indexpage .page-heading {
         font-size: 6vw !important;
         text-align: left;
-        font-style: italic;
     }
     .fairextra-intro {
         padding: 30px 20px;
@@ -176,6 +175,31 @@
     }
     .fairextra-intro .intro-div .description {
         font-size: 4vw;
+    }
+    .grid-image-block .bg-image {
+        min-height: 380px;
+    }
+    .grid-image-block .heading {
+        font-size: 9vw;
+    }
+    .grid-center {
+        height: 450px;
+    }
+    .grid-center .heading {
+        padding: 0px 4px;
+        font-size: 9vw;
+    }
+    .for-drivers {
+        height: 350px;
+    }
+    .for-drivers .heading {
+        font-size: 10vw;
+    }
+    .for-drivers .description {
+        font-size: 4vw;
+    }
+    .for-drivers .border-slide-button {
+        font-size: 5vw;
     }
 }
 
@@ -273,5 +297,11 @@
     }
     .fairextra-intro .intro-div .heading {
         font-size: 35px;
+    }
+    .grid-center {
+        height: 650px;
+    }
+    .for-drivers .heading {
+        font-size: 45px;
     }
 }

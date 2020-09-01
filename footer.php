@@ -27,8 +27,8 @@
                 </div>
                 <div class="col">
                     <div class="float-right">
-                        <img src="images/appstore-button.png" class="url img-fluid" width="130">
-                        <img src="images/play-button.png" class="url mt-md-0 mt-3 img-fluid" width="130">
+                        <a href="#"><img src="images/appstore-button.png" class="url img-fluid" width="130"></a>
+                        <a href="#"><img src="images/play-button.png" class="url mt-md-0 mt-3 img-fluid" width="130"></a>
                     </div>
                 </div>
             </div>
