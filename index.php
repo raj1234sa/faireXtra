@@ -1,13 +1,13 @@
 <?php $indexpage = true ?>
 <?php require_once 'header.php' ?>
-<div class="row align-items-center h-md-100">
+<div class="row index-header-row h-75">
     <div class="col-auto">
         <small>A place where</small>
         <div class="row justify-content-center page-heading-only mt-2">
             <div class="col-auto page-heading">THE PERFORMANCE-DRIVEN AD PLATFORM FOR BRANDS !</div>
         </div>
         <small class="mt-2 d-block">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</small>
-        <button class="border-slide-button mt-0 mt-md-5">LEARN MORE</button>
+        <button class="border-slide-button mt-3 mt-sm-4 mt-md-5">LEARN MORE</button>
     </div>
 </div>
 </div>

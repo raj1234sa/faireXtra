@@ -1,6 +1,9 @@
 @media screen and (max-width: 768px) {
-    header {
+    header:not(.indexpage2) {
         height: 250px;
+    }
+    .indexpage2 {
+        height: 350px;
     }
     .links .left-link {
         border-bottom: 1px solid rgba(255, 255, 255, 0.6);
@@ -161,20 +164,27 @@
         font-size: 6vw !important;
         text-align: left;
     }
+    header.indexpage2 .page-heading {
+        font-size: 6vw !important;
+        text-align: left;
+    }
+    header.indexpage2 small, header.indexpage2 a {
+        font-size: 4vw !important;
+    }
     .fairextra-intro {
-        padding: 30px 20px;
+        padding: 30px 20px !important;
     }
     .fairextra-intro .intro-div {
         min-height: 350px !important;
     }
     .fairextra-intro .intro-div .heading {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     .fairextra-intro .intro-div .subtitle {
-        font-size: 6vw;
+        font-size: 7vw !important;
     }
     .fairextra-intro .intro-div .description {
-        font-size: 4vw;
+        font-size: 5vw !important;
     }
     .grid-image-block .bg-image {
         min-height: 380px;
@@ -200,6 +210,33 @@
     }
     .for-drivers .border-slide-button {
         font-size: 5vw;
+    }
+    .index-header-row {
+        align-items: flex-start;
+    }
+    .indexbody2 .brand-div {
+        margin-top: -50px;
+        background: white;
+    }
+    .column-layout {
+        padding: 20px 7px 40px 7px;
+    }
+    .comment-card {
+        padding: 2px 5px;
+        width: 80vw;
+        font-size: 3vw;
+    }
+    .img-dir-left .comment-card {
+        right: 0;
+        bottom: -34px;
+    }
+    .img-dir-right .comment-card {
+        left: 0px;
+        bottom: -35px;
+    }
+    .comment-card .user-icon img {
+        width: 20px;
+        border-radius: 20px;
     }
 }
 
@@ -270,6 +307,11 @@
         padding: 30px 80px !important;
     }
 
+    .indexbody2 .brand-div {
+        box-shadow: 0px 43px 30px 3px #ccc;
+        padding: 10px 80px !important;
+    }
+
     .brand-list {
         padding: 20px 70px;
     }
@@ -295,6 +337,9 @@
     .fairextra-intro {
         height: 600px;
     }
+    .indexbody2 .fairextra-intro {
+        height: 300px;
+    }
     .fairextra-intro .intro-div .heading {
         font-size: 35px;
     }
@@ -303,5 +348,38 @@
     }
     .for-drivers .heading {
         font-size: 45px;
+    }
+    .index-header-row {
+        align-items: center;
+    }
+    .column-layout {
+        padding: 20px 0px 100px 0px;
+    }
+    .indexbody2 .brand-div {
+        margin-top: -130px;
+        background: white;
+    }
+    .column-layout .heading {
+        font-size: 30px;
+    }
+    .column-layout .description {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.4);
+    }
+    .comment-card {
+        padding: 33px 30px;
+        width: 430px;
+    }
+    .img-dir-left .comment-card {
+        right: 20px;
+        bottom: -34px;
+    }
+    .img-dir-right .comment-card {
+        left: -30px;
+        bottom: -35px;
+    }
+    .comment-card .user-icon img {
+        width: 45px;
+        border-radius: 20px;
     }
 }

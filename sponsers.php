@@ -1,4 +1,10 @@
-<div class="brand-list">
+<?php
+$brandclass = '';
+if(isset($indexpage2) && $indexpage2 == true) {
+    $brandclass = 'brand-index2';
+}
+?>
+<div class="brand-list <?php echo $brandclass ?>">
     <div class="row no-gutters">
         <div class="col-12 brand-div">
             <div class="row no-gutters align-items-center">

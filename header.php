@@ -1,3 +1,15 @@
+<?php
+$bodyclass = '';
+$headerclass = '';
+if (isset($indexpage) && $indexpage == true) {
+    $bodyclass = 'indexbody';
+    $headerclass = 'indexpage';
+}
+if (isset($indexpage2) && $indexpage2 == true) {
+    $bodyclass = 'indexbody2';
+    $headerclass = 'indexpage2';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,12 +23,12 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="<?php if(isset($indexpage) && $indexpage == true) echo 'indexbody' ?>">
-    <header class="<?php if(isset($indexpage) && $indexpage == true) echo 'indexpage' ?>">
+<body class="<?php echo $bodyclass ?>">
+    <header class="<?php echo $headerclass ?>">
         <div class="overlap-image">
             <div class="container-lg h-100">
                 <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand" href="http://localhost/faire">
+                    <a class="navbar-brand" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire">
                         <img src="images/header-icon.png" width="200" class="img-fluid">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

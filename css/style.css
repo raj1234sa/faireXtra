@@ -18,11 +18,11 @@ header {
     background-size: 100% 100%;
 }
 
-header.indexpage {
+header.indexpage, header.indexpage2 {
     color: white;
 }
 
-header.indexpage small {
+header.indexpage small, header.indexpage2 small {
     color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
 }
@@ -186,11 +186,9 @@ footer .bottom {
 
 
 .contact-section {
-    margin-top: -200px;
 }
 
 .contact-header {
-    padding-bottom: 200px;
 }
 
 .form-header {
@@ -362,7 +360,6 @@ form .form-inputs {
 }
 
 .trial-content img {
-    width: 200px;
     border-radius: 4px;
 }
 
@@ -793,26 +790,26 @@ form .form-inputs {
     background: white;
 }
 
-.fairextra-intro {
+.indexbody .fairextra-intro {
     padding: 40px 80px;
 }
 
-.fairextra-intro .intro-div {
+.indexbody .fairextra-intro .intro-div {
     border: 1px solid #ccc;
     text-align: center;
 }
 
-.fairextra-intro .intro-div .heading {
+.indexbody .fairextra-intro .intro-div .heading {
     color: rgba(19, 9, 91, 0.85);
     font-weight: bold;
 }
 
-.fairextra-intro .intro-div .subtitle {
+.indexbody .fairextra-intro .intro-div .subtitle {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.6);
 }
 
-.fairextra-intro .intro-div .description {
+.indexbody .fairextra-intro .intro-div .description {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -898,7 +895,7 @@ form .form-inputs {
     font-size: 35px;
 }
 
-.indexbody div[class^=overlap-image] {
+.indexbody div[class^=overlap-image], .indexbody2 div[class^=overlap-image] {
     height: 100%;
 }
 
@@ -930,4 +927,56 @@ form .form-inputs {
 
 .for-drivers .heading {
     font-weight: bold;
+}
+
+.indexpage2 a {
+    color: cyan;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.brand-index2 {
+    padding-right: 0px !important;
+}
+
+.indexbody2 .fairextra-intro .intro-div .heading {
+    color: rgba(13, 51, 8, 0.85);
+    font-weight: bold;
+}
+
+.indexbody2 .fairextra-intro .intro-div .description {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.column-layout .img-dir-left img, .column-layout .img-dir-left .comment-card {
+    box-shadow: -4px 2px 34px -12px #bbb;
+}
+
+.column-layout .img-dir-right img, .column-layout .img-dir-right .comment-card {
+    box-shadow: 2px -4px 34px -12px #bbb;
+}
+
+.column-layout .heading {
+    color: rgba(13, 51, 8, 0.85);
+    font-weight: bold;
+}
+.column-layout a {
+    color: rgba(65, 166, 209, 1);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.column-layout .img-dir-right img {
+    width: inherit;
+}
+.column-layout .img-dir-right .order-1 {
+    padding-right: 30px;
+}
+.column-layout .img-dir-left .order-1, .column-layout .img-dir-right .order-12 {
+    position: relative;
+}
+
+.comment-card {
+    position: absolute;
+    background: white;
 }
