@@ -54,7 +54,7 @@
     <div class="column-layout">
         <div class="row no-gutters img-dir-right align-items-center justify-content-end">
             <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
-                <img src="images/dashboard-index2.jpg" class="img-fluid">
+                <img src="images/dashboard-grid.jpeg" class="img-fluid">
                 <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
                     <div class="user mt-0 mt-md-4">
@@ -80,7 +80,7 @@
     <div class="column-layout">
         <div class="row no-gutters img-dir-left align-items-center">
             <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
-                <img src="images/dashboard-index2.jpg" class="img-fluid">
+                <img src="images/target.jpg" class="img-fluid">
                 <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
                     <div class="user mt-0 mt-md-4">
@@ -106,7 +106,7 @@
     <div class="column-layout mb-5">
         <div class="row no-gutters img-dir-right align-items-center justify-content-end">
             <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
-                <img src="images/dashboard-index2.jpg" class="img-fluid">
+                <img src="images/mobile-laptop.jpg" class="img-fluid">
                 <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
                     <div class="user mt-0 mt-md-4">

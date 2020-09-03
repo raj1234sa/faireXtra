@@ -238,6 +238,17 @@
         width: 20px;
         border-radius: 20px;
     }
+    .nav-row { 
+        position: absolute;
+        top: 100%;
+        background: white;
+        z-index: 10;
+        color: black;
+        text-align: center;
+    }
+    .nav-row .nav-item .nav-link {
+        padding: 15px 0px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -381,5 +392,8 @@
     .comment-card .user-icon img {
         width: 45px;
         border-radius: 20px;
+    }
+    .column-layout img {
+        width: 94%;
     }
 }

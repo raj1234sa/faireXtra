@@ -82,7 +82,7 @@
                 </div>
                 <div class="row justify-content-center size-responsive no-gutters mt-2">
                     <div class="col-11 col-md-8">
-                        <div class="team-locatoin-desc">HQ - Gurgaon</div>
+                        <div class="team-location-desc">HQ - Gurgaon</div>
                     </div>
                 </div>
             </div>
@@ -94,10 +94,10 @@
                 <div class="form-div img-opacity-5">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6">
-                            <h4 class="text-white">
+                            <h4 class="text-white heading">
                                 Interested in Being A Part of FaireXtra? Check Out Our Open Job Positions
                             </h4>
-                            <span class="d-block mt-4">
+                            <span class="d-block mt-4 description">
                                 We connect offline and online advertising channels to drive measureable results while putting money back into the pockets of hard working drivers.
                             </span>
                         </div>
@@ -134,11 +134,11 @@
         <div class="trial-content">
             <div class="container">
                 <div class="row align-items-center py-5 justify-content-center size-responsive">
-                    <div class="col-12 col-md-auto">
+                    <div class="col-12 col-md-4">
                         <img src="images/partners.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-12 col-md-6 ml-md-5">
-                        <h3 class="mt-3 mt-md-0">Start your free trial</h3>
+                        <h3 class="mt-3 mt-md-0 heading">Start your free trial</h3>
                         <span class="d-block mt-3">Get notified about company updates, news and blog posts. We hate spam.</span>
                         <form class="mt-4 form-inline">
                             <div class="form-group input-responsive">

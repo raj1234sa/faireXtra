@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button:focus {
+    outline: none;
+}
+
 .indexbody .page-heading {
     font-style: italic;
 }
@@ -16,6 +20,7 @@ header {
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-family: 'Rubik', sans-serif;
 }
 
 header.indexpage, header.indexpage2 {
@@ -112,6 +117,7 @@ ul.navbar-links {
 }
 
 .middle-footer  .main-content .heading {
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
 
@@ -122,6 +128,7 @@ footer > .footer {
     position: relative;
     z-index: 1;
     color: white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer > .middle {
@@ -269,6 +276,7 @@ form .form-inputs {
 
 .about-section {
     padding: 9vw;
+    font-family: 'Rubik';
 }
 
 .about-section img {
@@ -302,6 +310,7 @@ form .form-inputs {
 
 .section-sub-desc {
     color: white;
+    text-align: center;
 }
 
 .img-opacity-1 {
@@ -346,7 +355,7 @@ form .form-inputs {
     height: 2px;
 }
 
-.team-locatoin-desc {
+.team-location-desc {
     text-align: center;
     color: white;
     font-size: 25px;
@@ -807,11 +816,24 @@ form .form-inputs {
 .indexbody .fairextra-intro .intro-div .subtitle {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.6);
+    font-family: 'Oxygen', sans-serif;
 }
 
 .indexbody .fairextra-intro .intro-div .description {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.heading, .section-heading, .title, .card-heading, .form-header, .privacy-head {
+    font-family: 'Rubik';
+}
+
+.description, .section-sub-desc, .team-location-desc, .card-heading ~ .body, .contact-form-desc, .contact-content, .slider, .privacy-content {
+    font-family: 'Inter', sans-serif;
+}
+
+.inner {
+    font-family: 'Roboto Condensed';
 }
 
 .grid-image-block .bg-image {
@@ -830,6 +852,7 @@ form .form-inputs {
 .grid-image-block .description {
     text-align: center;
     width: 60%;
+    font-family: 'Inter', sans-serif;
 }
 
 .grid-image-block .learn-button, .grid-center .learn-button {
@@ -895,6 +918,10 @@ form .form-inputs {
     font-size: 35px;
 }
 
+.grid-center .description {
+    font-family: 'Inter', sans-serif;
+}
+
 .indexbody div[class^=overlap-image], .indexbody2 div[class^=overlap-image] {
     height: 100%;
 }
@@ -920,6 +947,10 @@ form .form-inputs {
     height: 600px;
 }
 
+.for-drivers .description {
+    font-family: 'Inter', sans-serif;
+}
+
 .overlap-image17 {
     background: linear-gradient(to left, rgba(0,0,255,0.7), rgba(0,0,0,.3));
     padding: 0px 30px;
@@ -929,7 +960,7 @@ form .form-inputs {
     font-weight: bold;
 }
 
-.indexpage2 a {
+.indexpage2 .page-heading-only ~ a {
     color: cyan;
     font-weight: bold;
     text-decoration: underline;
