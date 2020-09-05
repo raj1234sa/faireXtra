@@ -86,7 +86,7 @@
             <div class="bottom row no-gutters align-items-center justify-content-between">
                 <div class="col-12 col-md-auto">
                     <a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire/">
-                        <img src="images/header-icon.png" width="200" class="img-fluid">
+                        <img src="images/logo.png" width="150" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-12 col-md-auto">

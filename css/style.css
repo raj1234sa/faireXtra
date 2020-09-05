@@ -11,15 +11,15 @@ button:focus {
 }
 
 .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
 }
 
 header {
     background-image: url('../images/1.jpg');
     height: 600px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -187,15 +187,8 @@ img.url {
 }
 
 footer .bottom {
-    padding-top: 5px;
-}
-
-
-
-.contact-section {
-}
-
-.contact-header {
+    padding-top: 9px;
+    padding-bottom: 5px;
 }
 
 .form-header {

@@ -32,7 +32,7 @@ if (isset($indexpage2) && $indexpage2 == true) {
             <div class="container-lg h-100">
                 <nav class="navbar navbar-expand-md position-relative">
                     <a class="navbar-brand" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire">
-                        <img src="images/header-icon.png" width="200" class="img-fluid">
+                        <img src="images/logo.png" width="150" class="img-fluid">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
