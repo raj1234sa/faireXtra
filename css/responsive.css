@@ -114,8 +114,11 @@
         margin-bottom: 50px;
     }
     .page-heading {
-        font-size: 9vw !important;
+        font-size: 3vw !important;
         text-align: center;
+    }
+    .index-bgimage small {
+        font-size: 2vw !important;
     }
     .contact-header {
         font-size: 10vw !important;
@@ -248,6 +251,10 @@
     }
     .nav-row .nav-item .nav-link {
         padding: 15px 0px;
+        width: 100%;
+    }
+    .navbar a.nav-link {
+        color: brown;
     }
 }
 
@@ -355,7 +362,7 @@
         font-size: 35px;
     }
     .grid-center {
-        height: 650px;
+        height: 750px;
     }
     .for-drivers .heading {
         font-size: 45px;
@@ -395,5 +402,9 @@
     }
     .column-layout img {
         width: 94%;
+    }
+    .hover-list > .hover-items {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }

@@ -10,24 +10,23 @@ button:focus {
     font-style: italic;
 }
 
-.navbar {
-    /* padding-top: 0px;
-    padding-bottom: 0px; */
-}
-
-header {
+header.other-bgimage {
     background-image: url('../images/1.jpg');
-    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Rubik', sans-serif;
-}
-
-header.indexpage, header.indexpage2 {
     color: white;
 }
 
-header.indexpage small, header.indexpage2 small {
+header {
+    font-family: 'Rubik', sans-serif;
+    height: 600px;
+}
+
+header.indexpage2 {
+    color: white;
+}
+
+header.indexpage2 small {
     color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
 }
@@ -35,7 +34,7 @@ header.indexpage small, header.indexpage2 small {
 .overlap-image {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.31);
 }
 
 a:hover {
@@ -420,8 +419,13 @@ form .form-inputs {
     padding-top: 70px;
 }
 
-.hover-list .hover-items:hover {
+.hover-list .hover-items.zoom {
     transform: scale(1.1);
+    transition: .5s;
+}
+
+.hover-list .hover-items:not(.zoom) {
+    transform: scale(0.9);
     transition: .5s;
 }
 
@@ -830,7 +834,7 @@ form .form-inputs {
 }
 
 .grid-image-block .bg-image {
-    height: 380px;
+    height: 460px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -928,7 +932,7 @@ form .form-inputs {
 }
 
 .overlap-image15 {
-    background: linear-gradient(to top, rgba(0,0,255,0.3), rgba(0,0,0,.3));
+    background: linear-gradient(to top, rgba(0,0,255,0.3), rgba(0,0,0,.6));
 }
 
 .overlap-image16 {
@@ -993,14 +997,29 @@ form .form-inputs {
 .column-layout .img-dir-right img {
     width: inherit;
 }
-.column-layout .img-dir-right .order-1 {
+.column-layout .img-dir-right .order-md-1 {
     padding-right: 30px;
 }
-.column-layout .img-dir-left .order-1, .column-layout .img-dir-right .order-12 {
+.column-layout .img-dir-left .order-md-1, .column-layout .img-dir-right .order-md-12 {
     position: relative;
 }
 
 .comment-card {
     position: absolute;
     background: white;
+}
+
+.index-bgimage {
+    background-image: url('../images/2b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.index-bgimage small {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+.grid-center.grid1 {
+    margin-top: 140px;
 }

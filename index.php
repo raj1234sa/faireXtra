@@ -1,4 +1,7 @@
-<?php $indexpage = true ?>
+<?php
+    $indexpage = true;
+    $headerclass = 'index-bgimage';
+?>
 <?php require_once 'header.php' ?>
 <div class="row index-header-row h-75">
     <div class="col-auto">
@@ -173,7 +176,6 @@
             </div>
         </div>
     </div>
-    <?php require_once 'case_study.php' ?>
     <?php require_once 'evaluation.php' ?>
     <div class="for-drivers section-image text-white">
         <div class="overlap-image17 row no-gutters h-100 align-items-center justify-content-end text-center">

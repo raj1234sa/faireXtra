@@ -129,7 +129,6 @@
             </div>
         </div>
     </div>
-    <?php require_once 'case_study.php' ?>
     <?php require_once 'evaluation.php' ?>
     <div class="for-drivers section-image text-white">
         <div class="overlap-image17 row no-gutters h-100 align-items-center justify-content-end text-center">

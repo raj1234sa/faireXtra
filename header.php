@@ -1,13 +1,19 @@
 <?php
+if (!isset($headerclass)) {
+    $headerclass = 'other-bgimage';
+}
 $bodyclass = '';
-$headerclass = '';
 if (isset($indexpage) && $indexpage == true) {
     $bodyclass = 'indexbody';
-    $headerclass = 'indexpage';
+    if (empty($headerclass) || !isset($headerclass)) {
+        $headerclass = 'indexpage';
+    }
 }
 if (isset($indexpage2) && $indexpage2 == true) {
     $bodyclass = 'indexbody2';
-    $headerclass = 'indexpage2';
+    if (empty($headerclass) || !isset($headerclass)) {
+        $headerclass = 'indexpage2';
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -27,11 +33,11 @@ if (isset($indexpage2) && $indexpage2 == true) {
 </head>
 
 <body class="<?php echo $bodyclass ?>">
-    <header class="<?php echo $headerclass ?>">
+    <header class="<?php echo isset($headerclass) ? $headerclass : '' ?>">
         <div class="overlap-image">
             <div class="container-lg h-100">
                 <nav class="navbar navbar-expand-md position-relative">
-                    <a class="navbar-brand" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire">
+                    <a class="navbar-brand" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire/index.php">
                         <img src="images/logo.png" width="150" class="img-fluid">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

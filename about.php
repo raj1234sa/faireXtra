@@ -156,7 +156,6 @@
             </div>
         </div>
     </div>
-    <?php require_once 'case_study.php' ?>
     <hr class="w-75">
     <?php require_once 'evaluation.php' ?>
 </section>
