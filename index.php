@@ -49,10 +49,10 @@ $headerclass = 'index-bgimage';
 <section>
     <div class="fairextra-intro">
         <div class="row h-100 no-gutters justify-content-center intro-div align-items-center px-2 px-md-0 py-3 py-md-0">
-            <div class="col-12 col-md-5 heading text-right pr-3">
+            <div class="col-12 col-md-3 heading text-center pr-3">
                 WHY FAIREXTRA
             </div>
-            <div class="col-12 col-md-5 description pl-3">
+            <div class="col-12 col-md-6 description pl-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus asperiores harum magni
                 incidunt quisquam alias facere facilis a, consectetur deserunt impedit eveniet ipsa rerum. Esse nesciunt
                 placeat laudantium soluta!

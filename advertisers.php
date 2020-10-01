@@ -70,16 +70,6 @@ $faqList[] = array(
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-auto page-heading">-->
-<!--                Advertisers & Partners-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row justify-content-center mt-4">-->
-<!--            <div class="col-auto description">-->
-<!--                The performance-driven ad-tech platform for Advertisers-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </div>
 </div>
