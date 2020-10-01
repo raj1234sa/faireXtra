@@ -1,135 +1,105 @@
-<?php $indexpage2 = true ?>
+<?php
+    $indexpage2 = true;
+?>
 <?php require_once 'header.php' ?>
-<div class="row align-items-center h-75">
+<div class="row index-header-row h-75">
     <div class="col-auto">
-        <small>A place where</small>
         <div class="row justify-content-center page-heading-only mt-2">
             <div class="col-auto page-heading">THE PERFORMANCE-DRIVEN AD PLATFORM FOR BRANDS !</div>
         </div>
         <small class="mt-2 d-block">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</small>
-        <a href="#" class="mt-2 mt-sm-4 mt-md-5 d-block"><i class="mr-2 fas fa-angle-right"></i>Get in touch</a>
     </div>
 </div>
 </div>
 </div>
 </header>
 <section>
-    <?php require_once 'sponsers.php' ?>
     <div class="fairextra-intro">
-        <div class="row h-100 no-gutters justify-content-center intro-div align-items-center px-2 px-md-0 py-3 py-md-0">
-            <div class="col-12 col-md-5 heading text-right pr-3">
-                WHY FAIREXTRA
-            </div>
-            <div class="col-12 col-md-5 description pl-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus asperiores harum magni incidunt quisquam alias facere facilis a, consectetur deserunt impedit eveniet ipsa rerum. Esse nesciunt placeat laudantium soluta!
+        <div class="row h-100 no-gutters intro-div align-items-center px-2 px-md-0 py-3 py-md-0">
+            <div class="col">
+                <div class="row no-gutters">
+                    <div class="heading col">WHAT IS "FAIREXTRA"?</div>
+                </div>
+                <div class="row no-gutters mt-2 mt-md-4">
+                    <div class="subtitle col">Earn money from advertising on your car.</div>
+                </div>
+                <div class="row no-gutters justify-content-center mt-2">
+                    <div class="description col-10 col-md-8">Way greater than just ads on cars. Electrify your brand and audience efforts with FaireXtra Ad-tech Platform.</div>
+                </div>
+                <div class="row no-gutters justify-content-center mt-2 mt-md-4">
+                    <div class="description col-10 col-md-8">The Audience driven Ad-tech Platform for brands. Advertise with daily commuters across India. Scale OOH+ Digital Ascription.</div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="column-layout">
-        <div class="row no-gutters img-dir-left align-items-center">
-            <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
-                <img src="images/dashboard-index2.jpg" class="img-fluid">
-                <div class="comment-card">
-                    <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
-                    <div class="user mt-0 mt-md-4">
-                        <div class="row align-items-center no-gutters">
-                            <div class="user-icon col-auto mr-3">
-                                <img src="images/avatar/1.png">
-                            </div>
-                            <div class="user-name col">
-                                <strong>Eunice Oliver</strong><br>
-                                <span>Founder & CE, Zeem</span>
-                            </div>
+    <div class="grid-center grid1">
+        <div class="overlap-image13">
+            <div class="row no-gutters justify-content-center align-items-center h-100">
+                <div class="col-auto">
+                    <div class="heading">MEDIA MEASUREMENT</div>
+                    <div class="row mt-2 mt-md-4 no-gutters justify-content-center">
+                        <div class="col-auto col-md-7 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</div>
+                    </div>
+                    <div class="row no-gutters mt-md-4 justify-content-center">
+                        <div class="col-auto">
+                            <button class="learn-button mt-3">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 order-md-12">
-                <span class="heading d-block">Media Measurement</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
-            </div>
         </div>
     </div>
-    <div class="column-layout">
-        <div class="row no-gutters img-dir-right align-items-center justify-content-end">
-            <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
-                <img src="images/dashboard-grid.jpeg" class="img-fluid">
-                <div class="comment-card">
-                    <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
-                    <div class="user mt-0 mt-md-4">
-                        <div class="row align-items-center no-gutters">
-                            <div class="user-icon col-auto mr-3">
-                                <img src="images/avatar/2.png">
-                            </div>
-                            <div class="user-name col">
-                                <strong>Eunice Oliver</strong><br>
-                                <span>Founder & CE, Zeem</span>
-                            </div>
+    <div class="grid-center grid2">
+        <div class="overlap-image14">
+            <div class="row no-gutters justify-content-center align-items-center h-100">
+                <div class="col-auto">
+                    <div class="heading">SUPERIOR ATTRIBUTION</div>
+                    <div class="row mt-2 mt-md-4 no-gutters justify-content-center">
+                        <div class="col-auto col-md-7 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</div>
+                    </div>
+                    <div class="row no-gutters mt-md-4 justify-content-center">
+                        <div class="col-auto">
+                            <button class="learn-button mt-3">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 order-md-1">
-                <span class="heading d-block">Better Attribution</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
-            </div>
         </div>
     </div>
-    <div class="column-layout">
-        <div class="row no-gutters img-dir-left align-items-center">
-            <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
-                <img src="images/target.jpg" class="img-fluid">
-                <div class="comment-card">
-                    <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
-                    <div class="user mt-0 mt-md-4">
-                        <div class="row align-items-center no-gutters">
-                            <div class="user-icon col-auto mr-3">
-                                <img src="images/avatar/3.jpg">
-                            </div>
-                            <div class="user-name col">
-                                <strong>Eunice Oliver</strong><br>
-                                <span>Founder & CE, Zeem</span>
-                            </div>
+    <div class="grid-center grid3">
+        <div class="overlap-image15">
+            <div class="row no-gutters justify-content-center align-items-center h-100">
+                <div class="col-auto">
+                    <div class="heading">PHYSICAL RETARGETING</div>
+                    <div class="row mt-2 mt-md-4 no-gutters justify-content-center">
+                        <div class="col-auto col-md-7 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</div>
+                    </div>
+                    <div class="row no-gutters mt-md-4 justify-content-center">
+                        <div class="col-auto">
+                            <button class="learn-button mt-3">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 order-md-12">
-                <span class="heading d-block">Physical Retargeting</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
-            </div>
         </div>
     </div>
-    <div class="column-layout mb-5">
-        <div class="row no-gutters img-dir-right align-items-center justify-content-end">
-            <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
-                <img src="images/mobile-laptop.jpg" class="img-fluid">
-                <div class="comment-card">
-                    <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective."</div>
-                    <div class="user mt-0 mt-md-4">
-                        <div class="row align-items-center no-gutters">
-                            <div class="user-icon col-auto mr-3">
-                                <img src="images/avatar/4.jpg">
-                            </div>
-                            <div class="user-name col">
-                                <strong>Eunice Oliver</strong><br>
-                                <span>Founder & CE, Zeem</span>
-                            </div>
+    <div class="grid-center grid4">
+        <div class="overlap-image16">
+            <div class="row no-gutters justify-content-center align-items-center h-100">
+                <div class="col-auto">
+                    <div class="heading">FOOT-TRAFFIC MANAGEMENT</div>
+                    <div class="row mt-2 mt-md-4 no-gutters justify-content-center">
+                        <div class="col-auto col-md-7 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</div>
+                    </div>
+                    <div class="row no-gutters mt-md-4 justify-content-center">
+                        <div class="col-auto">
+                            <button class="learn-button mt-3">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 order-md-1">
-                <span class="heading d-block">Foot Traffic Measurement</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
-            </div>
         </div>
     </div>
-    <?php require_once 'evaluation.php' ?>
     <div class="for-drivers section-image text-white">
         <div class="overlap-image17 row no-gutters h-100 align-items-center justify-content-end text-center">
             <div class="col-12 col-md-6">

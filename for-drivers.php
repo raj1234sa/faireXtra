@@ -15,7 +15,6 @@
 </div>
 </header>
 <section>
-    <?php require_once 'sponsers.php' ?>
     <div class="estimate-section mt-5">
         <div class="row no-gutters">
             <div class="col-12 text-center title">HOW MUCH YOU CAN MAKE?</div>
@@ -116,8 +115,6 @@
             </div>
         </div>
     </div>
-    <hr class="w-75">
-    <?php require_once 'evaluation.php' ?>
 </section>
 <?php require_once 'footer.php' ?>
 <script>

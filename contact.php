@@ -12,7 +12,11 @@
                 <div class="col-12 col-md-8 seperate-left">
                     <form action="#" method="post">
                         <div class="form-header">Keep Message</div>
-                        <div class="contact-form-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, impedit corporis! Porro tenetur reiciendis, eligendi numquam nesciunt tempora sequi consequuntur non blanditiis, pariatur odit sint, molestiae quis perspiciatis necessitatibus? Consectetur!</div>
+                        <div class="contact-form-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                            impedit corporis! Porro tenetur reiciendis, eligendi numquam nesciunt tempora sequi
+                            consequuntur non blanditiis, pariatur odit sint, molestiae quis perspiciatis necessitatibus?
+                            Consectetur!
+                        </div>
                         <div class="form-inputs">
                             <div class="form-group row">
                                 <div class="col">

@@ -1,5 +1,36 @@
-body {
+index-bgimagebody {
     font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    justify-content: center;
+    z-index: 9;
+}
+
+.index-bgimage row:first-child {
+    justify-content: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner .carousel-item.item1 {
+    background-image: url("../images/4.jpg");
+}
+
+.carousel-inner .carousel-item.item2 {
+    background-image: url("../images/5.jpg");
+}
+
+.carousel-inner .carousel-item.item3 {
+    background-image: url("../images/asd.jpg");
+}
+
+.carousel-inner .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button:focus {
@@ -34,7 +65,7 @@ header.indexpage2 small {
 .overlap-image {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.31);
+    background-color: rgba(0, 0, 0, 0.71);
 }
 
 a:hover {
@@ -67,11 +98,28 @@ ul.navbar-links {
 }
 
 .page-heading-only .page-heading {
-    font-size: 50px;
+    font-size: 28px;
 }
 
-.faq-section, .contact-section, .privacy-section {
+.faq-section, .privacy-section {
     margin: 90px auto;
+}
+
+.contact-section {
+    margin-top: -120px;
+    margin-bottom: 45px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-50%);
 }
 
 .custom-card {
@@ -109,13 +157,13 @@ ul.navbar-links {
     cursor: pointer;
 }
 
-.middle-footer  .main-content {
+.middle-footer .main-content {
     background: #eee;
     box-shadow: 3px 5px 30px -8px #aaa;
     padding: 40px 120px;
 }
 
-.middle-footer  .main-content .heading {
+.middle-footer .main-content .heading {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
@@ -177,6 +225,12 @@ img.url {
     display: inline-block;
     background-color: white;
     border-radius: 15px;
+    width: 31px;
+    height: 30px;
+}
+
+.social-links li a img {
+    /* border-radius: 15px; */
     width: 31px;
     height: 30px;
 }
@@ -277,7 +331,8 @@ form .form-inputs {
 }
 
 .who-we-section {
-    padding: 3vw;
+    padding: 7vw 3vw;
+    color: black;
 }
 
 .about-form-section {
@@ -292,16 +347,13 @@ form .form-inputs {
 
 .section-heading {
     font-weight: bold;
-    color: white;
 }
 
 .section-sub-heading {
     font-weight: bold;
-    color: white;
 }
 
 .section-sub-desc {
-    color: white;
     text-align: center;
 }
 
@@ -366,7 +418,7 @@ form .form-inputs {
 
 .trial-content {
     margin: 10px 20px;
-    background: rgba(204, 204, 204,0.2);
+    background: rgba(204, 204, 204, 0.2);
 }
 
 .case-study {
@@ -486,10 +538,12 @@ form .form-inputs {
 .estimate-section .estimate-title {
     color: rgba(0, 0, 0, 0.8);
 }
+
 .estimate-section .estimate-range {
     font-weight: bold;
     font-size: 30px;
 }
+
 .estimate-section .estimate-duration {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.7);
@@ -615,7 +669,9 @@ form .form-inputs {
     padding-bottom: 80px;
     background: rgba(19, 9, 91, 0.85);
 }
+
 .offer-card {
+    height: 100%;
     border: 1px solid cyan;
     border-radius: 11px;
     padding: 20px 15px !important;
@@ -632,18 +688,37 @@ form .form-inputs {
     text-align: center;
 }
 
+.offer-card .body ul {
+    text-align: left;
+    padding-inline-start: 20px;
+}
+
+.offer-card a {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 22px;
+    border: none;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
 .retargeting-section {
     background-image: url('../images/1a.jpg');
 }
 
 .overlap-image7 {
     height: 750px;
-    background: rgba(0,0 , 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .overlap-image8 {
     height: 700px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .retargeting-section .heading {
@@ -924,7 +999,7 @@ form .form-inputs {
 }
 
 .overlap-image13 {
-    background: linear-gradient(to bottom, rgba(0,0,255,0.6), rgba(0,0,0,.3));
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0.6), rgba(0, 0, 0, .3));
 }
 
 .overlap-image14 {
@@ -932,7 +1007,7 @@ form .form-inputs {
 }
 
 .overlap-image15 {
-    background: linear-gradient(to top, rgba(0,0,255,0.3), rgba(0,0,0,.6));
+    background: linear-gradient(to top, rgba(0, 0, 255, 0.3), rgba(0, 0, 0, .6));
 }
 
 .overlap-image16 {
@@ -949,7 +1024,7 @@ form .form-inputs {
 }
 
 .overlap-image17 {
-    background: linear-gradient(to left, rgba(0,0,255,0.7), rgba(0,0,0,.3));
+    background: linear-gradient(to left, rgba(0, 0, 255, 0.7), rgba(0, 0, 0, .3));
     padding: 0px 30px;
 }
 
@@ -989,17 +1064,21 @@ form .form-inputs {
     color: rgba(13, 51, 8, 0.85);
     font-weight: bold;
 }
+
 .column-layout a {
     color: rgba(65, 166, 209, 1);
     font-weight: bold;
     text-decoration: underline;
 }
+
 .column-layout .img-dir-right img {
     width: inherit;
 }
+
 .column-layout .img-dir-right .order-md-1 {
     padding-right: 30px;
 }
+
 .column-layout .img-dir-left .order-md-1, .column-layout .img-dir-right .order-md-12 {
     position: relative;
 }
@@ -1010,7 +1089,7 @@ form .form-inputs {
 }
 
 .index-bgimage {
-    background-image: url('../images/2b.jpg');
+    background-image: url('../images/4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -1020,6 +1099,11 @@ form .form-inputs {
     color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
 }
+
 .grid-center.grid1 {
     margin-top: 140px;
+}
+
+.overlap-image a {
+    color: white;
 }

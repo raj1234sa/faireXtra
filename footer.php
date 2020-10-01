@@ -3,7 +3,7 @@
         <div class="middle-footer">
             <div class="row no-gutters">
                 <div class="col-10 main-content">
-                    <div class="heading">Let's make something<br>amazing together.</div>
+                    <div class="heading">Ready for a more efficient way to drive value for your brand? Contact sales to get started.</div>
                     <div class="row mt-3">
                         <div class="col">
                             <a href="#">
@@ -34,33 +34,27 @@
             </div>
             <div class="row no-gutters links">
                 <div class="col-12 col-md-8 left-link">
-                    <div class="row no-gutters justify-content-between">
+                    <div class="row no-gutters justify-content-between align-items-center">
                         <div class="col-auto">
-                            <ul class="list-unstyled m-0">
-                                <li class="head">services</li>
-                                <li><a href="#">Strategy Design</a></li>
-                                <li><a href="#">Product Design</a></li>
-                                <li><a href="#">Content Strategy</a></li>
-                                <li><a href="#">Brand Strategy</a></li>
-                                <li><a href="#">Development</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-auto">
-                            <ul class="list-unstyled m-0">
-                                <li class="head">help and advice</li>
-                                <li><a href="#">How it works</a></li>
-                                <li><a href="#">Contact Support</a></li>
-                                <li><a href="privacy.php">Privacy Policy</a></li>
-                                <li><a href="faq.php">FAQ</a></li>
-                            </ul>
+                            <a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire/index.php">
+                                <img src="images/logo.png" width="150" class="img-fluid">
+                            </a>
                         </div>
                         <div class="col-auto">
                             <ul class="list-unstyled m-0">
                                 <li class="head">company</li>
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="contact.php">Contact</a></li>
-                                <li><a href="#">Jobs</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="advertisers.php">Brands & Agencies</a></li>
+                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="for-drivers.php">For Drivers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-auto align-self-start">
+                            <ul class="list-unstyled m-0">
+                                <li class="head">help and advice</li>
+                                <li><a href="#">Installers</a></li>
+                                <li><a href="privacy.php">Privacy Policy</a></li>
+                                <li><a href="faq.php">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -73,22 +67,17 @@
                             <span class="d-block mt-3 email">info@gmail.com</span>
                             <div class="mt-3 overflow-auto">
                                 <ul class="list-unstyled social-links d-inline-flex m-0">
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href="#"></a></li>
+                                    <li><a href="#" title="FaireXtra"><img src="images/header-icon.png"></a></li>
+                                    <li><a href="#" title="LinkedIn"><img src="images/linkedin.png"></a></li>
+                                    <li><a href="#" title="Facebook"><img src="images/facebook.png"></a></li>
+                                    <li><a href="#" title="Twitter"><img src="images/twitter.png"></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom row no-gutters align-items-center justify-content-between">
-                <div class="col-12 col-md-auto">
-                    <a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/faire/index.php">
-                        <img src="images/logo.png" width="150" class="img-fluid">
-                    </a>
-                </div>
+            <div class="bottom row no-gutters align-items-center justify-content-end">
                 <div class="col-12 col-md-auto">
                     &copy; 2020@fairXtra. All rights reserved.
                 </div>

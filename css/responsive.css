@@ -114,11 +114,14 @@
         margin-bottom: 50px;
     }
     .page-heading {
-        font-size: 3vw !important;
+        font-size: 3.5vw !important;
         text-align: center;
     }
     .index-bgimage small {
-        font-size: 2vw !important;
+        font-size: 3.7vw !important;
+    }
+    .other-bgimage small, .other-bgimage a {
+        font-size: 3.7vw !important;
     }
     .contact-header {
         font-size: 10vw !important;
