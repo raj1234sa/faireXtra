@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb2eeadb-a45b-4ec4-a1fc-5621a20d5b62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisers.php" beforeDir="false" afterPath="$PROJECT_DIR$/advertisers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for-drivers.php" beforeDir="false" afterPath="$PROJECT_DIR$/for-drivers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +24,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Laravel/electric" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -46,7 +40,8 @@
       <workItem from="1601521472935" duration="90000" />
       <workItem from="1601521623037" duration="322000" />
       <workItem from="1601521995451" duration="4976000" />
-      <workItem from="1601566249647" duration="1748000" />
+      <workItem from="1601566249647" duration="1865000" />
+      <workItem from="1601568475801" duration="30000" />
     </task>
     <servers />
   </component>
@@ -54,6 +49,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601568505016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601568505016" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1601521571883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
