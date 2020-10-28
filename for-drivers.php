@@ -52,7 +52,6 @@
             <div class="row mt-5 justify-content-center">
                 <div class="col-12 col-md-4 step-div">
                     <div class="overlap">
-                        <span class="number">1</span>
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <div class="title mt-4">Book FaireXtra Drive</div>
@@ -62,7 +61,6 @@
                 </div>
                 <div class="col-12 col-md-4 step-div mt-5 mt-md-0">
                     <div class="overlap">
-                        <span class="number">2</span>
                         <i class="fas fa-car"></i>
                     </div>
                     <div class="title mt-4">Drive with the App</div>
@@ -72,7 +70,6 @@
                 </div>
                 <div class="col-12 col-md-4 step-div mt-5 mt-md-0">
                     <div class="overlap">
-                        <span class="number">3</span>
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <div class="title mt-4">Sign up for a campaign</div>

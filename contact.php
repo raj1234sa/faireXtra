@@ -11,12 +11,7 @@
             <div class="row no-gutters">
                 <div class="col-12 col-md-8 seperate-left">
                     <form action="#" method="post">
-                        <div class="form-header">Keep Message</div>
-                        <div class="contact-form-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                            impedit corporis! Porro tenetur reiciendis, eligendi numquam nesciunt tempora sequi
-                            consequuntur non blanditiis, pariatur odit sint, molestiae quis perspiciatis necessitatibus?
-                            Consectetur!
-                        </div>
+                        <div class="contact-form-desc">Looking for Cars, OOH Services, or drive with us? Drop a word and let us know how we can help you?</div>
                         <div class="form-inputs">
                             <div class="form-group row">
                                 <div class="col">
@@ -46,11 +41,11 @@
                     <div class="contact-content mt-4 mt-md-5">
                         <span class="d-block pt-md-3 head">Address</span>
                         <span class="d-block mt-2 mt-md-2 content">
-                            44 Shirley Ave.<br>West Chicago, IL 60185
+                            336 Udhyog Vihar Pahse IV,<br>Gurugram
                         </span>
                         <span class="d-block mt-4 mt-md-5 head">General Inquiry</span>
                         <span class="d-block mt-2 mt-md-2 content">
-                            riobit@email.com
+                            FX@fairextra.com
                         </span>
                         <span class="d-block mt-4 mt-md-5 head">Customer Support</span>
                         <span class="d-block mt-2 mt-md-2 content">

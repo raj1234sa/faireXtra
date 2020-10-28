@@ -52,10 +52,11 @@ $headerclass = 'index-bgimage';
             <div class="col-12 col-md-3 heading text-center pr-3">
                 WHY FAIREXTRA
             </div>
-            <div class="col-12 col-md-6 description pl-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ducimus asperiores harum magni
-                incidunt quisquam alias facere facilis a, consectetur deserunt impedit eveniet ipsa rerum. Esse nesciunt
-                placeat laudantium soluta!
+            <div class="col-12 col-md-7 description pl-3 text-left">
+                <span>The FaireXtra AD-Tech Platform</span>
+                <h4 class="mt-2">High-Scale OOH + Digital Ascription</h4>
+                <span>Way greater than just ads on cars. Electrify your brand and audience marketing efforts with FaireXtra Ad-tech Platform.</span>
+                <div class="mt-3"><a href="#">Get Quote</a></div>
             </div>
         </div>
     </div>
@@ -63,7 +64,7 @@ $headerclass = 'index-bgimage';
         <div class="row no-gutters img-dir-left align-items-center">
             <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
                 <img src="images/dashboard-index2.jpg" class="img-fluid">
-                <div class="comment-card">
+                <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
                     </div>
@@ -78,12 +79,12 @@ $headerclass = 'index-bgimage';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-12 col-md-4 order-md-12">
                 <span class="heading d-block">Media Measurement</span>
                 <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
+                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
@@ -91,7 +92,7 @@ $headerclass = 'index-bgimage';
         <div class="row no-gutters img-dir-right align-items-center justify-content-end">
             <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
                 <img src="images/dashboard-grid.jpeg" class="img-fluid">
-                <div class="comment-card">
+                <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
                     </div>
@@ -106,12 +107,12 @@ $headerclass = 'index-bgimage';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-12 col-md-4 order-md-1">
-                <span class="heading d-block">Better Attribution</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
+                <span class="heading d-block">Superior Attribution</span>
+                <span class="d-block mt-2 mt-md-3 description">Attribute wrapped vehicle exposure to online conversion & in app engagement. Use this data to drive your performance driven marketing efforts in a cross channel environment.</span>
+                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
@@ -119,7 +120,7 @@ $headerclass = 'index-bgimage';
         <div class="row no-gutters img-dir-left align-items-center">
             <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
                 <img src="images/target.jpg" class="img-fluid">
-                <div class="comment-card">
+                <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
                     </div>
@@ -134,12 +135,12 @@ $headerclass = 'index-bgimage';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-12 col-md-4 order-md-12">
                 <span class="heading d-block">Physical Retargeting</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
+                <span class="d-block mt-2 mt-md-3 description">Retarget the audience exposed to FaireXtra vehicles across Display, Mobile, Native, and Streaming Audio.</span>
+                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
@@ -147,7 +148,7 @@ $headerclass = 'index-bgimage';
         <div class="row no-gutters img-dir-right align-items-center justify-content-end">
             <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
                 <img src="images/mobile-laptop.jpg" class="img-fluid">
-                <div class="comment-card">
+                <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
                     </div>
@@ -162,12 +163,12 @@ $headerclass = 'index-bgimage';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-12 col-md-4 order-md-1">
                 <span class="heading d-block">Foot Traffic Measurement</span>
-                <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>See case study</a>
+                <span class="d-block mt-2 mt-md-3 description">Measure FaireXtra's omni-channel influence on foot-traffic into physical locations like Retail, Food & Beverage, Sports & Entertainment and Event Venues.</span>
+                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
