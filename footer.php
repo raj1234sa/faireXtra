@@ -4,6 +4,9 @@
             <div class="row no-gutters">
                 <div class="col-10 main-content">
                     <div class="heading">Ready for a more efficient way to drive value for your brand? Contact sales to get started.</div>
+                    <?php
+                    if($CURPAGE != 'contact') {
+                    ?>
                     <div class="row mt-3">
                         <div class="col">
                             <a href="contact.php">
@@ -12,6 +15,9 @@
                             </a>
                         </div>
                     </div>
+                    <?php
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -21,8 +27,8 @@
             <div class="row no-gutters align-items-center contact-detail">
                 <div class="col">
                     <div class="row">
-                        <div class="col-auto">Phone<br><strong>+32 50 31 28 32</strong></div>
-                        <div class="col-auto mt-md-0 mt-3">Address<br><strong>491 Merlin CrestSuite 963</strong></div>
+                        <div class="col-auto">Phone<br><strong>+91 70 30 73 29 91</strong></div>
+                        <div class="col-auto mt-md-0 mt-3">Address<br><strong>336 Udhyog Vihar Pahse IV, Gurugram</strong></div>
                     </div>
                 </div>
                 <div class="col">
@@ -64,7 +70,7 @@
                         <div class="col-8">
                             <span class="heading">get in touch</span>
                             <span class="d-block mt-4">Feel free to get in touch with us via email.</span>
-                            <span class="d-block mt-3 email"><a href="mailto:fx@faireXtra.com">fx@faireXtra.com</a></span>
+                            <span class="d-block mt-3 email"><a href="mailto:Fx@FaireXtra.com">Fx@FaireXtra.com</a></span>
                             <div class="mt-3 overflow-auto">
                                 <ul class="list-unstyled social-links d-inline-flex m-0">
                                     <li><a href="#" title="FaireXtra"><img src="images/header-icon.png"></a></li>

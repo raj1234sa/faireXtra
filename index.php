@@ -84,7 +84,7 @@ $headerclass = 'index-bgimage';
             <div class="col-12 col-md-4 order-md-12">
                 <span class="heading d-block">Media Measurement</span>
                 <span class="d-block mt-2 mt-md-3 description">Scale the influence of the out of home (OOH) impressions we produce with FaireXtra OOH impressions tracking technology on a dashboard online!</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
+                <a href="contact.php" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
@@ -112,14 +112,14 @@ $headerclass = 'index-bgimage';
             <div class="col-12 col-md-4 order-md-1">
                 <span class="heading d-block">Superior Attribution</span>
                 <span class="d-block mt-2 mt-md-3 description">Attribute wrapped vehicle exposure to online conversion & in app engagement. Use this data to drive your performance driven marketing efforts in a cross channel environment.</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
+                <a href="contact.php" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
     <div class="column-layout">
         <div class="row no-gutters img-dir-left align-items-center">
             <div class="col-12 col-md-7 order-md-1 mb-5 mb-md-0">
-                <img src="images/target.jpg" class="img-fluid">
+                <img src="images/physical-retargeting.jpg" class="img-fluid">
                 <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
@@ -140,14 +140,14 @@ $headerclass = 'index-bgimage';
             <div class="col-12 col-md-4 order-md-12">
                 <span class="heading d-block">Physical Retargeting</span>
                 <span class="d-block mt-2 mt-md-3 description">Retarget the audience exposed to FaireXtra vehicles across Display, Mobile, Native, and Streaming Audio.</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
+                <a href="contact.php" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>
     <div class="column-layout mb-5">
         <div class="row no-gutters img-dir-right align-items-center justify-content-end">
             <div class="col-12 col-md-7 order-md-12 mb-5 mb-md-0">
-                <img src="images/mobile-laptop.jpg" class="img-fluid">
+                <img src="images/foot-traffic.jpg" class="img-fluid">
                 <!-- <div class="comment-card">
                     <div class="message">"Exhibit System is not a provider. They are not a supplier. They are a partner
                         with expertise in making trade shows effective."
@@ -168,7 +168,7 @@ $headerclass = 'index-bgimage';
             <div class="col-12 col-md-4 order-md-1">
                 <span class="heading d-block">Foot Traffic Measurement</span>
                 <span class="d-block mt-2 mt-md-3 description">Measure FaireXtra's omni-channel influence on foot-traffic into physical locations like Retail, Food & Beverage, Sports & Entertainment and Event Venues.</span>
-                <a href="#" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
+                <a href="contact.php" class="mt-2 mt-md-3 d-block"><i class="mr-2 fas fa-angle-right"></i>Learn More</a>
             </div>
         </div>
     </div>

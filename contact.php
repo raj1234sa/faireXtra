@@ -1,4 +1,7 @@
-<?php require_once 'header.php' ?>
+<?php
+    require_once 'header.php';
+    $CURPAGE = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
+?>
 <div class="row align-items-center justify-content-center page-heading-only">
     <div class="col-auto contact-header page-heading">Contact Us</div>
 </div>
@@ -45,11 +48,11 @@
                         </span>
                         <span class="d-block mt-4 mt-md-5 head">General Inquiry</span>
                         <span class="d-block mt-2 mt-md-2 content">
-                            FX@fairextra.com
+                            <a href="mailto:Fx@FaireXtra.com">Fx@FaireXtra.com</a>
                         </span>
                         <span class="d-block mt-4 mt-md-5 head">Customer Support</span>
                         <span class="d-block mt-2 mt-md-2 content">
-                            123 456 789 22
+                            +91 70 30 73 29 91
                         </span>
                     </div>
                 </div>
